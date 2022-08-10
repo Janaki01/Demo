@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.creditcard.Ccbp1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.431 s - in com.creditcard.Ccbp1ApplicationTests
