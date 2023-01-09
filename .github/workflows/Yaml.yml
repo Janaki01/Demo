@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
     branches: 
-      - master
+      - main
 
 jobs:   
     build:
@@ -16,6 +16,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/muthuluri-janakimuthuluri-janaki0526/EMR%20Project
-            azure-pipeline-name: 'EMR Project-CI'
-            azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
+            azure-devops-project-url: https://dev.azure.com/muthuluri-janakimuthuluri-janaki0526/Sonarcloud
+            azure-pipeline-name: 'Sonarcloud-CI'
+            azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN1 }}
