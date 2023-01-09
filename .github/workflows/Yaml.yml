@@ -1,5 +1,5 @@
 name: CI
- #edit 1
+
 on:
   push:
     branches:
@@ -17,5 +17,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/muthuluri-janakimuthuluri-janaki0526/Sonarcloud
-            azure-pipeline-name: 'Sonarcloud-CI'
+            azure-pipeline-name: 'Sonarcloud'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN1 }}
